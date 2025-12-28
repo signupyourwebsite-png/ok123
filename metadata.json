@@ -1,0 +1,5 @@
+{
+  "name": "Chrome Extension Maker AI",
+  "description": "Tạo Addon Chrome chuyên nghiệp chỉ bằng một yêu cầu. AI sẽ tự động viết code manifest.json, background scripts, popup và nội dung cần thiết.",
+  "requestFramePermissions": []
+}
