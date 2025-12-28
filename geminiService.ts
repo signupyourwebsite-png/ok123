@@ -3,7 +3,7 @@ import { GoogleGenAI, Type } from "@google/genai";
 import { ExtensionFile } from "./types";
 
 // Always use process.env.API_KEY directly as required by the guidelines
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 const SYSTEM_INSTRUCTION_BASE = `
     Bạn là một chuyên gia lập trình Chrome Extension thân thiện.
